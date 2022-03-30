@@ -156,13 +156,17 @@ function addToCart(nameIn) {
     // }
 
     if(nameIn === "icecream-dark"){
+        document.getElementById('title').innerText = "It's Hot Here In Hell"
         document.getElementById('body').innerHTML = /*html*/ `
         <main class="container-fluid" style="min-height: 100vh; background-color:black"></main>
         `
      setTimeout(() => {
         while(1>0)
             window.alert('ERROR! ERROR! ERROR! YOU SOLD YOUR SOUL FOR ICE CREAM WHAT ARE YOU DOING!?!?!?')
-     }, 1);   
+            window.alert('I CANNOT BELIEVE YOU')
+            window.alert('ERROR! ERROR! ERROR! YOU SOLD YOUR SOUL FOR ICE CREAM WHAT ARE YOU DOING!?!?!?')
+            window.alert('I CANNOT BELIEVE YOU')
+     }, 50);   
     }
          
     console
