@@ -1,0 +1,19 @@
+
+main{
+    min-height: 90vh;
+}
+
+.img-fit{
+    object-fit: cover;
+    height: 35vh;
+    width: 100%;
+}
+
+.selectable{
+    cursor: pointer;
+}
+
+.overflow{
+    max-height: 80vh;
+    overflow-y: auto;
+}
